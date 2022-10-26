@@ -57,10 +57,11 @@ section {
 .kebumen {
     display: flex;
     flex-flow: column;
+    width: auto;
 }
 
 p {
-    text-align: start;
+
 }
 
 figcaption {
@@ -71,6 +72,6 @@ figcaption {
 
 figcaption#kebtitle {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
