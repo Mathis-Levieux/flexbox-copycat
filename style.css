@@ -50,9 +50,7 @@ header {
 .littlewrapper, .bigwrapper {
 	display: flex;
 	justify-content: center;
-	width: 1px;
-
-	margin: auto;
+  padding: 3rem;
 }
 
 .littlewrapper div, .bigwrapper div {
@@ -60,6 +58,7 @@ header {
 	flex-direction: column;
 	margin: 1rem 0.5rem;
   background-color: white;
+  height: 622px;
 }
 
 p.continent {
@@ -69,4 +68,78 @@ p.continent {
 }
 p, p.continent, h2 {
   padding-left: 20px;
+  padding-right: 5px;
 }
+
+p {
+  font-size: 1.35rem;
+}
+
+h2.bigh2 {
+  font-size: 2.6rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  height: 50%;
+}
+
+footer div {
+  display: flex;
+  flex-flow: column;
+  margin-top: 5%;
+
+}
+
+footer p, footer h2 {
+  padding: 0;
+  margin: 0;
+}
+
+footer h2 {
+  padding-bottom: 10%;
+}
+
+footer p {
+  padding-bottom: 3%;
+  font-size: 1rem;
+}
+
+footer img {
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.imgfooter {
+  width: 20%;
+  text-align: center;
+  background-color: rgba(140, 140, 140, 0.477);
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .littlewrapper, .bigwrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  img {
+    width: 100%;
+  }
+
+}
+  
+
